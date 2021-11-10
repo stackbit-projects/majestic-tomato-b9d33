@@ -4,7 +4,7 @@ sections:
   - elementId: ''
     variant: variant-b
     colors: colors-a
-    title: Portfolio
+    title: Portfolio Test
     subtitle: This is an optional subtitle for the portfolio page
     actions: []
     posts:
@@ -18,8 +18,16 @@ sections:
       self:
         height: auto
         width: wide
-        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
-        padding: ['pt-12', 'pb-12', 'pr-4', 'pl-4']
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pr-4
+          - pl-4
         justifyContent: center
       title:
         fontWeight: '700'
